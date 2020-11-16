@@ -105,6 +105,7 @@ a{  padding: 5px;
 /*1st section*/
 .bg1{
     background-color:rgb(45,38,64);
+    height: 500px;
 }
 .info{
     height: fit-content;
@@ -127,5 +128,22 @@ a{  padding: 5px;
 .img{
     position: relative;
     top: 70px;
-    height: 250px;
+    width: fit-content;
+    height: fit-content;
+}
+.img img{
+    width: 500px;
+    height: 550px;
+}
+/*section 2*/
+.upmargin{
+    margin-top: 240px;
+}
+.borderImg{
+    border-radius: 12px;
+}
+.center{
+    height: 520px;
+    justify-content: center;
+    width: 40%;
 }
